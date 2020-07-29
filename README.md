@@ -1,4 +1,4 @@
-#restaurant_bot
+# restaurant_bot
 
 This function will allow a user to input what type of food they want to eat and where they are located. These user inputs are then placed into a search query URL in Yelp.
 
