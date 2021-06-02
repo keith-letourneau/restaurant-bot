@@ -3,7 +3,7 @@ import webbrowser
 from bs4 import BeautifulSoup
 import urllib.request
  
-def eatery(): 
+def restaurant_bot(): 
   """
   Bot asks user for type of food and location
   returns with recommendation in browser
@@ -28,4 +28,4 @@ def eatery():
 #Open option in browser for the user
   webbrowser.open('https://www.yelp.com' + eatery_list[0])
 
-eatery()
+restaurant_bot()
