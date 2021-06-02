@@ -5,8 +5,8 @@ import urllib.request
  
 def restaurant_bot(): 
   """
-  Bot asks user for type of food and location
-  returns with recommendation in browser
+  1. Bot asks user for type of food and location
+  2. Returns with recommendation in browser
   """
 
 # User input for search query
