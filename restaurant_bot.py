@@ -11,7 +11,7 @@ def restaurant_bot():
 
 # User input for search query
   food_type = input("Hello! I am restaurant_bot and I can recommend you a highly rated place to eat!"
-                    "\n\nWhat do you feel like eating? (Ex. Spicy Korean BBQ) ")
+                    "\n\nWhat do you feel like eating? (Ex. Big Juicy Burger) ")
   location = input("\nWhere are you located? (Ex. San Francisco) ")
     
   food_type = food_type.replace(" ", "-")
